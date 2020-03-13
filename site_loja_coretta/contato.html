@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>CORETTA ACESSORIOS</title>
+        <meta name="author" content="BRENDA AXEL">
+        <meta name="description" content="Introdução ao HTML">
+        <meta name="keywords" content="HTML,CSS,Projeto Programando Sonhos,PBH">        
+        
+    	  <!-- Arquivo CSS aqui -->
+        <link rel="stylesheet" type="text/css" href="css/contato.css">
+    </head>
+    
+	<body>  
+      <header>
+           <h1>CORETTA ACESSORIOS</h1>
+
+           <style> 
+            h1 {
+             text-align: center;
+           }
+           </style>
+          
+
+
+          
+      
+      </header>
+      
+      <section id="exemplo">
+          <h2>Formulários em HTML</h2>
+      
+          <form name="formulário de Inscrição" method="" action=""> 
+            
+            <fieldset>
+              <legend> Dados Pessoais </legend>
+              
+                <label for="nome" > Nome </label>
+                <input type="text" name="nome" maxlength="50" size="60">
+
+                <label for="data"> Data de Nascimento</label>
+                <input type="date" name="data"> <br>
+
+                <p>   
+                <label for="cpf"> CPF </label>
+                <input type="text" name="cpf" maxlength="11">
+                </p>
+
+                <p>
+                  <label for="botao"> Estado Civil </label>
+                  <input type="radio" name="botao" value="1"> Solteiro
+                  <input type="radio" name="botao" value="2"> Casado
+                </p>
+                
+            
+            </fieldset>
+            <br> <br>
+            <fieldset>
+              <legend> Endereço </legend>
+
+              <p>
+                <label for="cep"> CEP </label>
+                <input type="text" name="cep" maxlength="8">
+              </p>
+              
+              <p>
+                <label for="opções"> TIPO </label>
+                  <select name="opções">  
+                    <option value="0"> Selecione </option>
+                    <option value="1"> Rua </option>
+                    <option value="2"> Alameda </option>
+                    <option value="3"> Avenida </option>
+                  </select>
+              </p>
+
+                <label for="logradouro"> Logradouro </label>
+                <input type="text" name="logradouro" maxlength="35">
+
+                <label for="numeroDaCasa"> Número </label>
+                <input type="number" name="numeroDaCasa" maxlength="15" size="15">
+
+                <label for="complemento"> Complemento </label>
+                <input type="text" name="complemento">
+                <br>           
+            </fieldset>
+            <br> <br>
+            <fieldset>
+              <legend> Formação Acadêmica</legend>
+              
+              <p>
+                <label for="escolaridade"> Escolaridade </label>
+                <input type="text" name="escolaridade">
+              </p>
+
+              <p>
+                <label for="check"> Outros Conhecimentos:    </label>
+                <input type="checkbox" name="check" checked="checked"> Ingles Básico 
+                <input type="checkbox" name="check2" checked="checked"> Informática Básica <br>
+              </p>
+              
+              <p>
+                <label for="area"> Observação </label>  <br>
+                  <textarea name="area" rows="3" cols="130" maxlength="200"> </textarea>
+              </p>
+            </fieldset>
+            <br> <br>
+
+            <p>
+              <input type="submit" name="enviar" value=" ENVIAR INSCRIÇÃO">
+              <input type="reset" name="limpar" value="CANCELAR">
+            </p>
+
+        
+          </form >
+
+      </section>    
+
+      <footer>    <!-- RODAPÉ --> 
+          <img class="rodapelogo" src="imagem/logo.jpg" alt="logo"  >                
+      </footer>
+            
+</body>
+</html>

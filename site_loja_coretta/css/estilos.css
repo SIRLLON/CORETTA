@@ -1,0 +1,119 @@
+
+    img {
+        width: 190px;
+    }
+
+    #logo{
+        width: 350px;
+        height: 200px;
+    }
+
+p{
+    font-family: 'Segoe UI';
+    text-align: center;
+    text-indent: 15px;
+}
+
+#banner {
+    background-color: rgba(0, 0, 0, 0.836);
+    height: 76px;
+    padding: 30px 70px 30px 70px;
+    }
+
+#banner h1 {
+    float: left;
+    margin: 0%;
+}
+
+#banner ul{
+    margin: 0px;
+}
+
+#banner nav {
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+#banner nav ul li {
+    display: inline-block;
+    width: 110px;
+    }
+
+#banner nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    }
+
+
+
+#redesocial ul{
+    margin: 0px;
+
+}
+#redesocial nav ul li {
+    display: inline-block;
+    width: 30px;
+    }
+
+#redesocial  nav ul li a {  
+        font-size: 20px;
+       
+        }
+#redesocial  nav ul li a img {
+            height: 30px;
+            width: 30px;   
+ }
+
+#figurainicial{    
+    height: 76px;
+    padding: 30px 70px 30px 70px;
+        }
+
+.produtos tr a img {               
+    height: 30px;
+    width: 30px;   
+   }
+/*.produtos{
+    margin: 0px;
+}
+*/
+ h1 {
+    background-color: rgba(190, 119, 25, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+#banner {
+    background-color: rgba(34, 32, 30, 0.897);
+    height: 100px;
+    padding: 30px 70px 30px 70px;
+    }
+
+#banner h2 {
+    float: left;
+    margin: 0%;
+}
+
+
+    #maisprodutos {
+        padding: 20px 1000px 20px 1000px;
+        margin: auto;
+        background-color: rgba(190, 119, 25, 0.5);
+    } 
+
+
+
+
+
+#imagem img {
+    height: 300px;
+    width: 900px;
+}
+#imagem2 center a  {
+    
+    background-color: blue;
+}
+
+p{ 
+    font-size: 24px;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+   }
